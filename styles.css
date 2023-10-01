@@ -1,0 +1,144 @@
+.middle-section-container{
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+/*STYLING THE TEXT AT THE TOP*/
+.middle-section-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+/*Styling the boxes section collectively*/
+.middle-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex: 1;
+}
+
+.middle-box-one-section,.middle-box-two-section,.middle-box-three-section, .middle-box-four-section{
+    /* display: flex; */
+    width: 150px;
+    
+}
+
+.middle-box-one-text,.middle-box-two-text,.middle-box-three-text,.middle-box-four-text{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+}
+
+/*Styling the individual box shapes */
+.middle-box-one,.middle-box-two,.middle-box-three, .middle-box-four
+{
+    border: 3px solid #3882F6;
+    width: 130px;
+    height: 130px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+/*STYLING THE QUOTES SECTION*/
+
+
+.quote-section-container{
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+
+.quote-section-inner-container{
+    width: 600px;
+    padding: 40px;
+}
+
+.quote-section{
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.author-section{
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*STYLING THE CALL TO ACTION SECTION */
+
+.call-to-action-container{
+    background: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call-to-action-inner-section{
+    background: #3882F6;
+    display: flex;
+    padding: 40px;
+    width: 700px;
+    color: white;
+    justify-content: space-around;
+    border-radius: 7px;
+
+}
+
+
+
+
+
+.call-to-action-bolder-text{
+    font-weight: bolder;
+}
+
+.call-to-action-button{
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+}
+
+button{
+    background: #3882F6;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    padding: 7px 20px;
+}
+
+
+
+/**STYLING THE FOOTER SECTION*/
+.footer-container{
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    right: 0;
+    left: 0;
+}
+
+.footer-text{
+    color: white;
+    font-size: 15px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
